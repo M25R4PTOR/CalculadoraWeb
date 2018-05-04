@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.5.2  Built on : Sep 06, 2010 (09:42:01 CEST) -->
+<serviceGroup>
+    <service name="Calculadora">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="es.aytos.main.server.CalculadoraMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">es.aytos.main.server.CalculadoraSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="dividir" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://main.aytos.es">
+            <actionMapping>urn:dividir</actionMapping>
+            <outputActionMapping>urn:dividirResponse</outputActionMapping>
+        </operation>
+        <operation name="restar" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://main.aytos.es">
+            <actionMapping>urn:restar</actionMapping>
+            <outputActionMapping>urn:restarResponse</outputActionMapping>
+        </operation>
+        <operation name="multiplicar" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://main.aytos.es">
+            <actionMapping>urn:multiplicar</actionMapping>
+            <outputActionMapping>urn:multiplicarResponse</outputActionMapping>
+        </operation>
+        <operation name="sumar" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://main.aytos.es">
+            <actionMapping>urn:sumar</actionMapping>
+            <outputActionMapping>urn:sumarResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
